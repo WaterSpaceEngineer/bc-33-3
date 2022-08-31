@@ -6,43 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <title>Barbershop</title>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
     rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/style.css" />
-  <title>Barbershop</title>
 </head>
 
 <body class="page">
   <!-- Header -->
-  <header class="header">
-    <a class="link" href="./index.html">
-      <img src="./images/logo.svg" alt="Barbershop logo" width="69" height="56" />
-    </a>
-    <nav>
-      <ul class="list">
-        <li>
-          <a class="link header-link" href="#about">About</a>
-        </li>
-        <li>
-          <a class="link header-link" href="#services">Services and prices</a>
-        </li>
-        <li>
-          <a class="link header-link" href="#barbers">Barbers</a>
-        </li>
-        <li>
-          <a class="link header-link" href="#contacts">Contacts</a>
-        </li>
-      </ul>
-    </nav>
-    <div>
-      <a class="link header-phone" href="tel:+380441111111">+38 044 111 11 11</a>
-      <button class="button button-dark" type="button">Online-booking</button>
+  <header class="header header-section">
+    <div class="conteiner">
+      <a class="link" href="./index.html">
+        <img src="./images/logo.svg" alt="Barbershop logo" width="69" height="56" />
+      </a>
+      <nav>
+        <ul class="list">
+          <li>
+            <a class="link header-link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="link header-link" href="#services">Services and prices</a>
+          </li>
+          <li>
+            <a class="link header-link" href="#barbers">Barbers</a>
+          </li>
+          <li>
+            <a class="link header-link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <a class="link header-phone" href="tel:+380441111111">+38 044 111 11 11</a>
+        <button class="button button-dark" type="button">Online-booking</button>
+      </div>
     </div>
   </header>
 
   <main>
     <!-- Hero -->
-    <section class="hero">
+    <section class="hero hero-section">
       <div class="">
         <p class="upper-title upper-title-dark">
           A hair salon for men in Kyiv
@@ -66,7 +71,7 @@
     </section>
 
     <!-- About -->
-    <section id="about">
+    <section class="section" id="about">
       <ul class="list">
         <li>
           <img src="./images/aboutus/img-1.jpg" alt="shaving beard" width="270" height="445" />
@@ -96,7 +101,7 @@
     </section>
 
     <!-- Services -->
-    <section class="services" id="services">
+    <section class="services section" id="services">
       <p class="upper-title upper-title-dark">
         Spend your time with the best masters
       </p>
@@ -141,7 +146,7 @@
     </section>
 
     <!-- Benefits -->
-    <section class="benefits">
+    <section class="benefits section">
       <ul class="benefits-list list">
         <li class="benefits-item">
           <p class="benefits-num">600</p>
@@ -169,7 +174,7 @@
     </section>
 
     <!-- Barbers-->
-    <section class="barbers" id="barbers">
+    <section class="barbers section" id="barbers">
       <p class="upper-title upper-title-light">
         For true enjoyers of the atmosphere
       </p>
@@ -250,7 +255,7 @@
     </section>
 
     <!-- Gallery -->
-    <section>
+    <section class="section">
       <p class="upper-title upper-title-light">
         In Latin, "barba" means "beard"
       </p>
@@ -272,7 +277,7 @@
     </section>
 
     <!-- Connect -->
-    <section class="connects" id="contacts">
+    <section class="connects section" id="contacts">
       <h2 class="visually-hidden">Contact Us</h2>
 
       <!--Booking -->
@@ -309,7 +314,7 @@
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer footer-section">
     <p class="footer-copy">&#169; Copyright 2020</p>
     <ul class="list">
       <li>

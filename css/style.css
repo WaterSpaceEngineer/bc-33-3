@@ -28,6 +28,19 @@
   letter-spacing: 0.02em;
 }
 
+.section {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.conteiner {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -154,6 +167,11 @@
   background-color: var(--primary-bg_mod-dark);
 }
 
+.header-section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .header-link, .header-phone {
   color: var(--secondary-txt_mod-dark);
 
@@ -179,6 +197,11 @@
 
 .hero {
   background-color: var(--primary-bg_mod-dark);
+}
+
+.hero-section {
+  padding-top: 272px;
+  padding-bottom: 206px;
 }
 
 .hero-title {
@@ -300,6 +323,10 @@
 /* Contacts end */
 
 /* Footer start */
+.footer-section {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
 
 .footer-copy {
   color: var(--primary-txt_mod-dark);
