@@ -24,11 +24,6 @@ h1, h2, h3, h4, h5, h6, p {
  margin: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -46,7 +41,7 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.conteiner {
+.container {
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -74,6 +69,8 @@ img {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .upper-title {
@@ -85,8 +82,6 @@ img {
 
   margin-bottom: 20px;
 }
-
-
 
 .upper-title-dark {
   color: var(--primary-txt_mod-darking);
@@ -252,8 +247,6 @@ img {
   letter-spacing: 0.02em;
 }
 
-
-
 /* About start */
 
 .about-subtitle {
@@ -294,7 +287,6 @@ img {
 .services-wrap {
   margin-bottom: 44px;
 }
-
 
 /* Services end */
 
@@ -380,19 +372,21 @@ img {
   background-color: var(--primary-bg_mod-dark);  
 }
 
+.connects-container {
+  display: flex;
+}
 
-/* Booking */
+
+/* Booking start */
 
 .booking-form {
   display: flex;
   flex-direction: column;
 }
 
-/* Contacts start */
+/* Booking end */
 
-.connects-conteiner {
-  display: flex;
-}
+/* Contacts start */
 
 .contacts-list {
   margin-bottom: 70px;
@@ -440,6 +434,5 @@ img {
   font-size: 11px;
   line-height: 1.36;
 }
-
 
 /* Footer end */
