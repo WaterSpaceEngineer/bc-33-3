@@ -20,8 +20,14 @@
 }
 
 /* base style */
-h1, h2, h3, h4, h5, h6, p {
- margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 img {
@@ -121,15 +127,15 @@ img {
 
 .button {
   border: 1px solid var(--accent-color);
-  
+
   background-color: transparent;
-  
+
   font-family: inherit;
   font-weight: 600;
   font-size: 12px;
   line-height: 1.3;
   letter-spacing: 0.09em;
-  text-transform: uppercase;  
+  text-transform: uppercase;
   padding: 12px 10px;
   min-width: 160px;
   min-height: 40px;
@@ -137,7 +143,7 @@ img {
   cursor: pointer;
 }
 
-.button:hover, 
+.button:hover,
 .button:focus {
   background-color: var(--accent-color);
   border: 1px solid transparent;
@@ -151,24 +157,27 @@ img {
   color: var(--secondary-txt_mod-light);
 }
 
-.button-light:hover, .button-light:focus {
+.button-light:hover,
+.button-light:focus {
   color: var(--primary-bg_mod-light);
 }
 
-.button-dark:hover, .button-dark:focus {
+.button-dark:hover,
+.button-dark:focus {
   color: var(--secondary-txt_mod-dark);
 }
 
 .social-link {
   color: var(--secondary-txt_mod-light);
-  
+
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.2em;
 }
 
-.social-link:hover, .social-link:focus {
+.social-link:hover,
+.social-link:focus {
   color: var(--accent-color);
 }
 
@@ -191,7 +200,34 @@ img {
   padding-bottom: 32px;
 }
 
-.header-link, .header-phone {
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: 131px;
+}
+
+.header-nav {
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.header-connect {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-link,
+.header-phone {
   color: var(--secondary-txt_mod-dark);
 
   font-weight: 600;
@@ -202,12 +238,12 @@ img {
 
 .header-link:hover,
 .header-link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .header-phone:hover,
 .header-phone:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* header end */
@@ -219,7 +255,6 @@ img {
 }
 
 .hero-section {
-  
 }
 
 .hero-content {
@@ -231,7 +266,7 @@ img {
 
 .hero-title {
   color: var(--secondary-txt_mod-dark);
-  
+
   font-family: var(--secondary-font);
   font-size: 72px;
   line-height: 1.18;
@@ -255,7 +290,7 @@ img {
 
 .about-text {
   color: var(--primary-txt_mod-light);
-  
+
   font-size: 14px;
   line-height: 1.86;
   margin-bottom: 42px;
@@ -277,7 +312,7 @@ img {
 }
 
 .services-item {
-  color: var(--primary-txt_mod-dark);  
+  color: var(--primary-txt_mod-dark);
 }
 
 .services-item:not(:last-child) {
@@ -322,7 +357,7 @@ img {
 .benefits-text {
   font-weight: 600;
   font-size: 11px;
-  line-height: 1.36;  
+  line-height: 1.36;
   letter-spacing: normal;
 }
 
@@ -354,8 +389,8 @@ img {
   margin-bottom: 30px;
 }
 
-.barbers-wrap { 
-  padding: 30px 30px 0 30px;  
+.barbers-wrap {
+  padding: 30px 30px 0 30px;
 }
 
 /* Barbers end */
@@ -369,13 +404,12 @@ img {
 /* Gallery end */
 
 .connects {
-  background-color: var(--primary-bg_mod-dark);  
+  background-color: var(--primary-bg_mod-dark);
 }
 
 .connects-container {
   display: flex;
 }
-
 
 /* Booking start */
 
